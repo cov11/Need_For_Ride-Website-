@@ -66,7 +66,7 @@ class PromotionController {
 
     
     // Tu peux ajouter ici la méthode updatePromotion() si tu veux faire des modifications plus tard
-
+//m
 public function getPromotionById($id) {
     $sql = "SELECT * FROM Promotions WHERE id = :id";
     $db = config::getConnexion();
@@ -83,4 +83,5 @@ public function getPromotionById($id) {
 }
 
 }
+
 ?>
