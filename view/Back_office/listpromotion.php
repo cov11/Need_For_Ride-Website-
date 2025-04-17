@@ -3,7 +3,7 @@ include __DIR__ . '/../../controller/promotioncontroller.php';
 
 $promotionC = new PromotionController();
 
-// Suppression si un ID est passé dans l'URL
+// Suppression s un ID est passé dans l'URL
 $successMessage = '';
 if (isset($_GET['delete_id'])) {
     $id = $_GET['delete_id'];
