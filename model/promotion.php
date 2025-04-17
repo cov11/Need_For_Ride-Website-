@@ -7,7 +7,7 @@ class Promotion {
     private $valeur;
     private $user_id;
 
-    // Constructeur pour initialiser les propriétés
+    // 
     public function __construct($code_promotion, $date_debut, $date_fin, $valeur, $user_id, $id = null) {
         $this->id = $id;
         $this->code_promotion = $code_promotion;
