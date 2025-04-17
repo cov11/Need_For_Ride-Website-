@@ -111,7 +111,7 @@ $list = $promotionController->listPromotion();
   </tbody>
 </table>
 
-<!-- Bouton retour -->
+<!-- Bouuton retour -->
 <button class="return-btn" onclick="window.history.back();">Retour</button>
 
 <script>
